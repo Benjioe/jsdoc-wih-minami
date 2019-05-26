@@ -1,5 +1,5 @@
-FROM jsdoc-rhino
+FROM benjioe14/jsdoc-with-rhino
 
 RUN git clone https://github.com/nijikokun/minami.git
 
-CMD runjsdoc && ./jsdoc/jsdoc /usr/src/app/scripts -d $OUT_DIRECTORY -T $README -t minami
+CMD ["./app", "-r", "-d", "./app/out", "-t", "./minami"]
