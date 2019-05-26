@@ -1,8 +1,8 @@
 # JSdoc with Rhino scripts in Docker
 Jsdoc-with-minami is a docker image who generate jsdoc 3.3.3 html documentation with the minami template
 
-##Usage
-###Linux (ubuntu)
+## Usage
+### Linux (ubuntu)
 Create a directory with some JavaScript file inside.
 `mkdir ~/jsdoc && echo "/** a test function */function test() {}" > ~/jsdoc/test.js` 
 
@@ -13,7 +13,7 @@ The generate html is saved in *D:\jsdoc\out*, open it in a browser.
 `sensible-browser ~/jsdoc/out/index.html`
 
 
-###Windows (powershell)
+### Windows (powershell)
 Create a directory with some JavaScript file inside.
 `mkdir c:\jsdoc; echo "/** a test function */function test() {}" > C:\jsdoc\test.js` 
 
@@ -24,13 +24,13 @@ The generate html is saved in *D:\jsdoc\out*, open it in a browser.
 `start D:\jsdoc\out\index.html`
 
 
-###Configure
+### Configure
 You can replace the default jsdoc parameters with your own by putting them a the end of the docker command line. Here we add a readme file: 
 `docker run -v c:/jsdoc:/usr/src/app jsdoc-with-minami -c ./app -r -t ./minami -R /usr/src/app/README.md`
 
 All parameters are describe on the [jsdoc documentation page](https://jsdoc.app/about-commandline.html)
 
-###Questions And Answers
+### Questions And Answers
 **What's Jsdoc ?**
 Jsdoc is a convention to document JavaScript code. It include a tool to generate html documentation.
 
