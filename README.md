@@ -30,7 +30,7 @@ You can replace the default jsdoc parameters with your own by putting them a the
 
 All parameters are describe on the [jsdoc documentation page](https://jsdoc.app/about-commandline.html)
 
-### Questions And Answers
+## Questions And Answers
 **What's Jsdoc ?**
 Jsdoc is a convention to document JavaScript code. It include a tool to generate html documentation.
 
