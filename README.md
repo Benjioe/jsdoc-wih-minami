@@ -10,12 +10,12 @@ mkdir ~/jsdoc && echo "/** a test function */function test() {}" > ~/jsdoc/test.
 
 Launch the image and map this directory to */usr/src/app*.
 ```Shell
-sudo docker run -v ~/jsdoc:/usr/src/app benjioe14/jsdoc-with-minami`
+sudo docker run -v ~/jsdoc:/usr/src/app benjioe14/jsdoc-with-minami
 ```
 
 The generate html is saved in *D:\jsdoc\out*, open it in a browser.
 ```Shell
-sensible-browser ~/jsdoc/out/index.html`
+sensible-browser ~/jsdoc/out/index.html
 ```
 
 ### Windows (powershell)
