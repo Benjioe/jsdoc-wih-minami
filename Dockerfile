@@ -1,4 +1,4 @@
-FROM benjioe14/jsdoc-with-rhino
+FROM benjioe14/jsdoc-with-rhino:8
 
 RUN git clone https://github.com/nijikokun/minami.git
 
